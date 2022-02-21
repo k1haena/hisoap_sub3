@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1400">
+  <title>event</title>
+  <link href="images/favicon.png" rel="icon" type="image/png" sizes="32x32">
+  <link rel="stylesheet" href="css/tab.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    @import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+  </style>
+</head>
+<body>
+  <div id="wrap">
+    <div class="header">
+      <div class="header_inner">
+        <h1><a href="https://k1minseong.github.io/hisoap_main/"><img src="images/LOGO.png" alt="로고"></a></h1>
+        <div class="menu">
+          <ul class="nav">
+            <li><a href="https://k1minseong.github.io/hisoap_sub1/">ABOUT US</a></li>
+            <li><a href="https://k1minseong.github.io/hisoap_sub2/">PRODUCT</a></li>
+            <li><a href="https://k1minseong.github.io/hisoap_sub3/">EVENT</a></li>
+            <li><a href="https://k1minseong.github.io/hisoap_sub4/">FACTORY</a></li>
+          </ul><!--nav-->
+        </div><!--menu-->
+        <div class="my">
+          <ul>
+            <li><a href="#">LOGIN</a></li>
+            <li><a href="#">JOIN</a></li>
+            <li><a href="#">CART</a></li>
+          </ul>
+        </div>
+      </div><!--header_inner-->
+    </div><!--header-->
+    <div class="content">
+      <div id="filter">
+        <div class="filter">
+          <div class="box">
+            <img src="images/event_bg.jpg" alt="배경" class="bg">
+            <div class="in_box">
+              <p>EVENT</p>
+              <img src="images/flower01.png" alt="꽃" class="flower1">
+              <img src="images/flower02.png" alt="꽃" class="flower2">
+              <img src="images/flower03.png" alt="꽃" class="flower3">
+              <img src="images/flower04.png" alt="꽃" class="flower4">
+              <img src="images/flower05.png" alt="꽃" class="flower5">
+            </div>
+          </div><!--box-->
+          <div class="box2">
+            <ul>
+              <li id="all" class="active"><a href="#none">전체 이벤트</a></li>
+              <li id="filter1"><a href="#none">진행중</a></li>
+              <li id="filter2"><a href="#none">종료된 이벤트</a></li>
+            </ul>
+          </div> <!--box2-->
+          <div class="filter_content">
+            <div class="filter1 right popup1">
+              <a href="#none"><img src="images/event01.jpg" alt="이미지"></a>
+              <h4>겨울 지나 따뜻한 봄, 벚꽃마중 할인 쿠폰</h4>
+              <p>2022 - 3 - 1 ~ 2022 - 3 - 9</p>
+            </div>
+            <div class="filter1 popup2"><a href="#none"><img src="images/event02.jpg" alt="이미지"></a>
+              <h4>MOIST FOT MEN 출시기념, 착한후기 이벤트</h4>
+              <p>2022 - 3 - 21 ~ 2022 - 6 - 6</p>
+            </div>
+            <div class="filter1 right popup3"><a href="#none"><img src="images/event03.jpg" alt="이미지"></a>
+              <h4>세상에 단 하나! 나만의 비누 만들기</h4>
+              <p>2022 - 3 - 1 ~ 2022 - 4 - 1</p>
+            </div>
+            <div class="filter1 popup4"><a href="#none"><img src="images/event04.jpg" alt="이미지"></a>
+              <h4>천연 수제 비누 , 클린데이 이벤트</h4>
+              <p>2022 - 3 - 11 ~ 2022 - 3 - 19</p>
+            </div>
+            <!--filter1 -->
+            <div class="filter2 right"><div class="end"><p>종료된 이벤트</p></div><a href="#none"><img src="images/end_event.jpg" alt="이미지"></a></div>
+          </div>
+        </div><!--filter-->
+        <div class="pop1">
+          <div>
+              <img src="images/pop-up1.jpg" alt="벚꽃마중">
+              <p><a href="#none"><img src="images/close.png" alt="닫기"></a></p>
+          </div>
+        </div>
+    </div>
+    </div><!--content-->
+    <footer>
+      <div class="footer_top">
+        <div class="sns">
+          <ul>
+            <li><a href="https://www.instagram.com/?hl=ko"><img src="images/sns01.png" alt="인스타"></a></li>
+            <li><a href="https://www.youtube.com/"><img src="images/sns02.png" alt="유튜브"></a></li>
+            <li><a href="https://twitter.com/?lang=ko"><img src="images/sns03.png" alt="트위터"></a></li>
+            <li><a href="https://ko-kr.facebook.com/"><img src="images/sns04.png" alt="페이스북"></a></li>
+          </ul>
+        </div><!--sns-->
+      </div><!--footer_top-->
+      <div class="footer_bottom">
+        <div class="company">
+          <h1><img src="images/f_logo.png" alt="로고"></h1>
+          <ul>
+            <li>HISAOP.CL(주)프로젝트0124</li>
+            <li>대표자 : 이동혁 | 개인정보관리책임자 : M.S | 2022(C)</li>
+          </ul>
+        </div>
+      </div><!--footer_bottom-->
+    </footer>
+  </div><!--wrap-->
+
+  <!--js-->
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script><!-- 제이쿼리 라이브러리,수정X -->
+  <script src="script/jquery-1.12.3.js"></script><!--제이쿼리 라이브러리-->
+  <script src="script/popup.js"></script>
+	<script src="script/tab.js"></script>
+  <script src="script/filter.js"></script>
+</body>
+</html>
